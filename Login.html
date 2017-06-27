@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>Login</title>
+<link href="http://fonts.googleapis.com/css?family=Varela" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+    
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="#"  accesskey="1" ><u>Piggy Bank</u></a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="#" accesskey="2" title="">Financial Services</a></li>
+				<li><a href="#" accesskey="3" title="">About Us</a></li>
+				<li><a href="#" accesskey="4" title="">Contact Us</a></li>
+                <li class="current_page_item"> <a href="#" accesskey="5" title="">Login</a></li>
+			</ul>
+		</div>
+	</div>
+	</div>
+	<div id="banner">
+		<div class="container">
+            <div align="center">
+            <table>
+            <tr>
+                <td><div align="center">
+            <div class="title">
+                Employee  Login:
+                </div>
+                <form name="login">
+                 <br>
+            <table>
+            <tr>
+                <td>Username</td> <td><input type="text" name="empuserid"/></td>
+            </tr>
+            <tr>    
+                <td>Password</td> <td><input type="password" name="emppassword"/></td>
+            </tr>
+            </table>
+                <br />
+            <a href="#" ><u>forgot your password</u></a>
+                <br /> <br />
+            <input type="submit" onclick="check(this.form)" value="Login"/>
+            <input type="reset" value="Cancel" onclick="#"/>
+        </form>
+        <script language="javascript">
+            function check(form) 
+            {
+                if(form.userid.value == "myuserid" && form.pswrd.value == "mypswrd") 
+                {
+                    window.open('#')
+                }
+                else
+                {
+                    alert("Error! Password or Username")
+                }
+            }
+        </script>
+			
+                    </div> </td>
+                
+                <td width="200">
+                    <div align="center">
+                    <div class="vertical_line"></div>
+                    </div>
+                    
+                </td>
+            
+           <td> <div align="center">
+            <div class="title">
+                Client/Customer  Login:
+                </div>
+                <form name="login">
+                 <br>
+            <table>
+            <tr>
+                <td>Username</td> <td><input type="text" name="clientuserid"/></td>
+            </tr>
+            <tr>    
+                <td>Password</td> <td><input type="password" name="clientpassword"/></td>
+            </tr>
+            </table>
+                <br />
+            <a href="#" ><u>forgot your password</u></a>
+                <br /> <br />
+            <input type="submit" onclick="check(this.form)" value="Login"/>
+            <input type="reset" value="Cancel" onclick="#"/>
+        </form>
+        <script language="javascript">
+            function check(form) 
+            {
+                if(form.userid.value == "myuserid" && form.pswrd.value == "mypswrd") 
+                {
+                    window.open('#')
+                }
+                else
+                {
+                    alert("Error! Password or Username")
+                }
+            }
+        </script>
+			
+               </div> </td>
+                </tr>
+            
+            </table>
+            </div>
+        </div>
+	</div>
+</div>
+<div id="copyright" class="container">
+	<p>&copy; Piggy Bank. All rights reserved | Terms & Conditions | Multilingual Disclaimer | Code Of Commitment | Privacy | Fair Practice Code For Lenders.</p>
+</div>
+</body>
+</html>
